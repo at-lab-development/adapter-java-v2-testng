@@ -119,9 +119,9 @@ For continuous developing and deploying create in ```.m2```  folder in your loca
   </servers>
 </settings>
 ```
-Also, do not forget to correct the following strings into ```pox.xml``` file if you are going to deploy library into another github repository.
+Also, do not forget to correct the following strings into ```pom.xml``` file if you are going to deploy library into another github repository.
 ```xml
 <repositoryName>adapter-java-v2-testng-demo</repositoryName>
 <repositoryOwner>at-lab-development</repositoryOwner>
 ```
-**This library include in ```pox.xml``` file TestNG dependency with scope marked as provided. That could cause some vulnerabilities**
+**This library include in ```pom.xml``` file TestNG dependency with scope marked as provided. That could cause some vulnerabilities**
