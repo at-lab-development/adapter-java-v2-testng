@@ -1,6 +1,7 @@
 # JIRATestNGListener for TestNG
 
 JIRATestNGListener for TestNG is a Java library for creating proper artifact for Jenkins plugin.
+Required JAVA 8 or higher.
 
 ## Installation
 Add rows below in pom.xml file
