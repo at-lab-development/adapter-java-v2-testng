@@ -124,3 +124,4 @@ Also, do not forget to correct the following strings into ```pox.xml``` file if 
 <repositoryName>adapter-java-v2-testng-demo</repositoryName>
 <repositoryOwner>at-lab-development</repositoryOwner>
 ```
+**This library include in ```pox.xml``` file TestNG dependency with scope marked as provided. That could cause some vulnerabilities**
