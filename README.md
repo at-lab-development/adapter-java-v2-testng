@@ -7,8 +7,8 @@ Add rows below in pom.xml file
 ```xml
 <repositories>
     <repository>
-        <id>JiraTestNG-mvn-repo</id>
-        <url>https://raw.github.com/EDbarvinsky/JiraTestNG/mvn-repo</url>
+        <id>adapter-java-v2-testng-mvn-repo</id>
+        <url>https://raw.github.com/at-lab-development/adapter-java-v2-testng/mvn-repo</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
@@ -22,7 +22,7 @@ Add rows below in pom.xml file
     <dependency>
         <groupId>com.epam.jira</groupId>
         <artifactId>adapter-java-testng</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>2.0-SNAPSHOT</version>
      </dependency>
 ....
 </dependencies>
