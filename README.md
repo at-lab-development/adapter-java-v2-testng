@@ -106,3 +106,21 @@ JIRAAttachment.addAttachment(((TakesScreenshot)driver).getScreenshotAs(OutputTyp
 - [x] Attachments
 - [x] Annotation approach
 - [x] Multithreading
+## Deploying
+For continuous developing and deploying create in ```.m2```  folder in your local machine ``` setting.xml```  with following credentials:
+```xml
+<settings>
+  <servers>
+    <server>
+      <id>github</id>
+      <username>Your github login</username>
+      <password>Your github password</password>
+    </server>
+  </servers>
+</settings>
+```
+Also, do not forget to correct the following strings into ```pox.xml``` file if you are going to deploy library into another github repository.
+```xml
+<repositoryName>adapter-java-v2-testng-demo</repositoryName>
+<repositoryOwner>at-lab-development</repositoryOwner>
+```
