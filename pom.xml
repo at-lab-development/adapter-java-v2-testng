@@ -9,6 +9,7 @@
     <version>2.0-SNAPSHOT</version>
 
     <properties>
+        <jdk.version>1.8</jdk.version>     
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <github.global.server>github</github.global.server>
         <github.maven-plugin>0.12</github.maven-plugin>
@@ -64,9 +65,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -90,7 +92,7 @@
                     <includes>
                         <include>**/*</include>
                     </includes>
-                    <repositoryName>adapter-java-v2-testng-demo</repositoryName>
+                    <repositoryName>adapter-java-v2-testng</repositoryName>
                     <repositoryOwner>at-lab-development</repositoryOwner>
                 </configuration>
                 <executions>
